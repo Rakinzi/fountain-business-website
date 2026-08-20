@@ -6,7 +6,6 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Home from './components/Home';
 import { ServicesList, ServiceDetail } from './components/Services';
-import Footer from './components/Footer';
 
 // Helper: scroll to element (same as original)
 const scrollToTarget = (targetId) => {
