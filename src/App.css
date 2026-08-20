@@ -1,0 +1,28 @@
+/* Force zero gap after header – universal fix */
+.header {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.header + *,
+.header + div,
+.header + main,
+.header + section {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Also target the first child inside the first element after header */
+.header + * > :first-child,
+.header + div > :first-child,
+.header + main > :first-child,
+.header + section > :first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Specific for hero sections */
+.hero, .hero-section, .hero-300, [class*="hero"] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
