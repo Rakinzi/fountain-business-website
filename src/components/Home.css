@@ -414,10 +414,6 @@ button { font: inherit; }
   padding: 8px 0;
 }
 
-.services-track:hover {
-  animation-play-state: paused;
-}
-
 @keyframes scroll-left {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
@@ -554,11 +550,5 @@ button { font: inherit; }
     opacity: 1;
     transform: none;
     animation: none;
-  }
-  .services-track {
-    animation: none;
-    transform: translateX(0);
-    flex-wrap: wrap;
-    justify-content: center;
   }
 }

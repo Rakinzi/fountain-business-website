@@ -254,6 +254,13 @@
     max-height: 80px;       /* was 60px – increased */
   }
   .navbar {
-    display: none; /* optional: hide on very small screens */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 16px;
+  }
+  .nav-btn {
+    padding: 8px 0 12px;
+    font-size: 0.9rem;
   }
 }
