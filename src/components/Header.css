@@ -240,6 +240,7 @@
     padding: 12px 16px;
   }
   .header-shell {
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     gap: 18px;
@@ -254,7 +255,8 @@
     max-height: 80px;       /* was 60px – increased */
   }
   .navbar {
-    display: flex;
+    width: 100%;
+    display: flex !important;
     flex-wrap: wrap;
     justify-content: center;
     gap: 8px 16px;
